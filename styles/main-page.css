@@ -1,13 +1,19 @@
 body {
   margin: 0;
   padding: 0;
+  max-width: 375px;
 }
 
 .header-section {
   width: 100%;
-  background-color: lightpink;
+  /* background-color: lightpink; */
 }
 
+header {
+  position: relative;
+  height: 100vh;
+}
+/* Nav list styles below */
 .nav-logo-list {
   background-color: lightgreen;
   display: flex;
@@ -16,10 +22,37 @@ body {
 }
 
 .nav-list {
+  position: absolute;
+  top: 0;
+  right: 0;
+
   display: flex;
+  flex-direction: column;
   align-items: center;
+  list-style: none;
 }
 
 .nav-list li {
   margin-right: 40%;
+}
+/* ............................. */
+
+/* Start of Hero Block */
+
+.hero-block {
+  position: absolute;
+  width: 60%;
+  left: 5em;
+  top: 20em;
+}
+
+.my-name {
+  color: darkslategray;
+  font-size: 4em;
+}
+
+.intro-paragraph {
+  color: lightseagreen;
+  text-align: left;
+  font-size: 1.2em;
 }
