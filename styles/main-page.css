@@ -56,3 +56,9 @@ header {
   text-align: left;
   font-size: 1.2em;
 }
+
+/* Move universal cards here to shorten code */
+.card {
+  padding: 10px;
+}
+

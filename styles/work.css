@@ -1,0 +1,26 @@
+.work-section{
+
+}
+
+.work-wrapper{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    padding: 20px;
+
+}
+
+.work-header{
+    margin: auto;
+
+}
+
+.work-date{
+
+}
+
+.exp-card-list {
+    display: flex;
+    flex-direction: column;
+  }
+  

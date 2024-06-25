@@ -1,5 +1,5 @@
 .skills-section {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .skills-wrapper {
@@ -9,13 +9,16 @@
   padding: 20px;
 }
 
-.skill-card {
-  padding: 10px;
+.skills-wrapper h1{
+    margin-bottom:0;
 }
 
-.skill-card span{
-    /* margin: auto; */
-    padding-left: 20%;
+.card {
+  padding: 10px;
+}
+.skill-card span {
+  /* margin: auto; */
+  padding-left: 20%;
 }
 
 .skill-card p {
