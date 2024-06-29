@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  max-width: 375px;
+  max-width: 475px;
 }
 
 .header-section {
@@ -12,10 +12,26 @@ body {
 header {
   position: relative;
   height: 100vh;
+  background-image: url("../images/Professional\ headshot.png");
+  background-repeat: no-repeat;
+  background-position: 75%;
+  background-size: cover;
+  
 }
+
+/*  overlay */
+.top-layer{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(255, 228, 196, 0.47);
+}
+
 /* Nav list styles below */
 .nav-logo-list {
-  background-color: lightgreen;
+  background-color: #90ee90;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -41,7 +57,7 @@ header {
 
 .hero-block {
   position: absolute;
-  width: 60%;
+  width: 80%;
   left: 5em;
   top: 20em;
 }
@@ -49,6 +65,7 @@ header {
 .my-name {
   color: darkslategray;
   font-size: 4em;
+  font-family: "Open Sans", sans-serif;
 }
 
 .intro-paragraph {
@@ -60,5 +77,14 @@ header {
 /* Move universal cards here to shorten code */
 .card {
   padding: 10px;
+  text-align: center;
 }
 
+.card h3 {
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.card p{
+  font-size: 1.5em
+}

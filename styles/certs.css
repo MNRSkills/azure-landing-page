@@ -1,5 +1,5 @@
 .certification-section {
-  background-color: rgba(217, 243, 217, 0.901);
+  background-color: rgba(42, 178, 171, 0.341);
   border-radius: 10px;
 }
 
@@ -14,11 +14,6 @@
     font-size: 3.5em;
 }
 
-.card img {
-  color: darkgreen;
-}
 
-.card h3 {
-  font-weight: 800;
-  font-size: 1.7em;
-}
+
+

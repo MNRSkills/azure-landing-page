@@ -3,19 +3,29 @@
 }
 
 .skills-wrapper {
-  display: grid;
+  /* display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 5.7em;
+  padding: 20px; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
   padding: 20px;
+  justify-content: center;
 }
 
-.skills-wrapper h1{
-    margin-bottom:0;
-}
-
-.card {
+/* .card {
   padding: 10px;
+} */
+
+.skill-card {
+  border: 1px solid #90ee90;
+  box-shadow: 5px 10px #888888;
+  margin:auto;
+  align-items: center;
 }
+
 .skill-card span {
   /* margin: auto; */
   padding-left: 20%;
@@ -27,4 +37,5 @@
 }
 img {
   width: 140px;
+  margin: auto;
 }

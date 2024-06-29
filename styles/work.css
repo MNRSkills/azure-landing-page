@@ -1,26 +1,31 @@
-.work-section{
-
+.work-section {
 }
 
-.work-wrapper{
-    display: flex;
-    flex-direction: column;
-    grid-gap: 20px;
-    padding: 20px;
-
+.work-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 100px;
+  padding: 20px;
 }
 
-.work-header{
-    margin: auto;
-
+.work-header {
+  /* margin: auto */
+  font-size: 2.5em;
 }
 
-.work-date{
-
+.work-date {
+  color: lightseagreen;
+  font-family: "Montserrat", sans-serif;
 }
 
 .exp-card-list {
-    display: flex;
-    flex-direction: column;
-  }
-  
+  display: flex;
+  flex-direction: column;
+}
+
+
+.exp-card-list li{
+    list-style: none;
+    text-align: left;
+    /* font-size: 2em; */
+}
